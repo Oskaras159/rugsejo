@@ -1,0 +1,594 @@
+body{
+  background-color:rgb(52, 76, 107);
+  font-family:'Poppins', sans-serif;
+  height: 2200px;
+}
+
+
+.login{
+  color: rgb(175, 209, 16);
+  background-color: rgb(61, 83, 112);
+  cursor:pointer;
+  padding: 10px;
+  height: 47px;
+  border: none;
+  position:absolute; top:0px; right:710px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+
+.sales{
+background-color: rgb(61, 83, 112);
+padding: 1px;
+font-size: 17px;
+position:absolute; top:0px; right:200px; 
+padding: 10px;
+width: 500px;
+border-radius: 5px;
+}
+
+.sales th{
+  width: 200px;
+  color: white;
+}
+
+.sales b{
+  color: rgb(175, 209, 16);
+}
+
+.mega-realist{
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: rgb(162, 177, 198);
+  font-size: 25px;
+  position: absolute; left: 270px; top: 30px; 
+}
+
+.mega-realist p{
+  color: rgb(216, 232, 38);
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 35px;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  background: rgb(40, 62, 91);
+  left: -8px;
+  position: relative; 
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px 30px;
+  position: absolute; bottom: 735px;
+  font-family: 'Poppins', sans-serif;
+
+}
+/**
+*! contact us stack on each other, idk how to fix
+**/
+nav ol{
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+}
+
+nav ol li{
+  margin: 0px;
+  margin-left: 50px;
+  text-align: center;
+  position: relative; left: 70px;
+}
+
+nav ol li a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 12px 0px;
+  margin-left: 50px;
+  min-width: 1000px;
+  }
+
+nav ol li:hover a{
+  background: rgb(175, 209, 16);  
+  color: rgb(40, 62, 91);
+  border-radius: 7px;
+}
+
+nav .search_box{
+  display: flex;
+  margin: auto 0;
+  height: 35px;
+  line-height: 35px;
+  position: absolute; left: 1500px; bottom: 10px;
+}
+
+nav .search_box input{
+  border: none;
+  outline: none;
+  background: rgb(74, 98, 129);
+  height: 100%;
+  padding: 0 10px;
+  font-size: 20px;
+  width: 250px;
+}
+
+nav .search_box span{
+  color: black;
+  font-size: 25px;
+  background: rgb(74, 98, 129);
+  height: 29px;
+  padding: 3px ;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.mother-box{
+  position: absolute; left: 260px; top: 190px;
+  width: 1400px;
+  height: 1880px;
+  background-color: rgb(69, 94, 126);
+  z-index: 0;
+}
+
+.mother-box .house img{
+  width: 65%;
+  height: 60%;
+  position: relative; left: 15px; top: 15px;
+}
+
+.house-info{
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute; top: 205px; left: 25px;
+  width: 450px;
+  height: 150px;
+  font-family:'Poppins', sans-serif;
+}
+
+.house-info h3{
+  color: goldenrod;
+  margin-left: 15px;
+}
+
+.house-info h4{
+  color: rgb(216, 232, 38);
+  margin-left: 15px;
+  margin-top: -8px;
+}
+
+.house-info p{
+  color: white;
+  font-size: 14px;
+  margin-top: -11px;
+  margin-left: 15px;
+}
+
+
+.slide {
+  display:flex;
+  position: absolute; left: 720px; top: 320px;
+  z-index: 2;
+  right: 0;
+  width: 160px;
+  height: 32px; 
+  widows: 30px;
+  color: white;
+}
+
+.dot {
+  cursor: pointer;
+  width: 5rem;
+  margin: 0.3rem 0.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.active, .dot:hover {
+  background-color: rgb(216, 232, 38);
+  transition: 0.6s ease;
+}
+
+.find-home{
+  background-color: rgb(82, 107, 139);
+  position: absolute; right: 15px; top: 15px;
+  width: 459px;
+  height: 352px;
+}
+
+.find-home h3{
+  color: rgb(216, 232, 38);
+  font-size: 26px;
+  padding-left: 19%;
+  margin-top: 15px;
+}
+
+.glass{
+  width: 10%;
+  position: absolute; left: 30px; top: 10px;
+}
+
+.find-home label{
+  color: #fff;
+  display: block;
+  font-size: 13px;
+}
+
+.dropdown{
+  height: 28px;
+  font-size: 18px;
+  text-align: left;
+  border: 1.5px rgb(127, 157, 185) solid;
+  width: 130px;
+  margin: 6px 0 6px 0;
+}
+
+
+
+.left-find{
+  width: 120px;
+  position: relative; left: 50px;
+}
+
+.right-find{
+  width: 120px;
+  position: relative; left: 110px;
+ 
+}
+
+.dropdown-box{
+  display: flex;
+}
+
+.search-button{
+width:130px;
+height: 35px;
+background-image: linear-gradient(rgb(103, 104, 114), rgb(69, 71, 83));
+font-size: 20px;
+color: #fff;
+box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 6px;
+cursor: pointer;
+position: relative; top: 15px;
+}
+
+
+.listing{
+  color: #fff;
+  position: relative; top: 30px; left: 15px; right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1366px;
+}
+
+.house1{
+  width: 300px;
+  height: 330px;
+  background-color: rgb(99, 124, 155);
+  border-radius: 7px;
+}
+
+.house1 img{
+  position: relative; left: 8px;
+  width: 95%;
+}
+
+.house1 h3{
+  position: relative; left: 14px;
+}
+
+.house1 h4{
+  font-size: 14px;
+  position: relative; left: 14px; top: 10px;
+}
+
+.house1 p{
+  color: rgb(216, 232, 38);
+  position: relative; left: 14px; top: 15px;
+}
+
+.house1 p a{
+  color: rgb(216, 232, 38);
+  text-decoration: none;
+}
+
+.triangle {
+  display:flex;
+}
+
+.tri-bottom{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 50px 50px 0;
+border-color: transparent rgb(122, 145, 173) transparent transparent;
+position: relative; bottom: 305px; left: 250px;
+border-radius: 0 7px 0 0;
+}
+
+.tri-top{
+margin: 0 -70px;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 15px 15px 0;
+border-color: transparent rgb(99, 124, 155) transparent transparent; 
+position: relative; bottom: 305px; left: 305px;
+border-radius: 0 7px 0 0;
+}
+
+.hot{
+  transform: rotate(45deg);
+  position: relative; left: 21px; bottom: 3px;
+  font-size: 15px;
+}
+
+.about{
+  background-color: rgb(41, 63, 91);
+  width: 1366px;
+  height: 280px;
+  position: absolute; top:1170px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.latest-news{
+  list-style-type:none;
+  width: 245px;
+  font-size: 15px;
+}
+
+.latest-news li{
+  padding: 0 0 6px 0;
+  border-bottom: 1px white dotted;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.latest-news-word{
+  position: relative; left: 40px;
+  font-size: 22px;
+}
+
+.latest-news a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+.later-news{
+  list-style-type:none;
+  width: 245px;
+  font-size: 15px;
+}
+
+.later-news li{
+  padding: 0 0 6px 0;
+  margin-top: 12px;
+  color: #fff;
+}
+
+.later-news a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+.socials{
+  width: 75px;
+}
+
+.buzz{
+  width: 85px;
+  position: relative; top: 5px; right: 3px;
+}
+
+.follow{
+  position: relative; right: 55px;
+}
+
+#follow-us{
+  margin-left: -40px;
+}
+
+.follow a{
+  padding: 3px;
+}
+
+.copyright{
+  position: absolute; top: 1460px; left: 3px;
+  color: rgb(135, 158, 188);
+  font-size: 14px;
+}
+
+.copyright a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.featured-listing{
+  position: absolute; top: 350px;
+  background-color: #E3E9F1;
+  color: #2A405C;
+  width: 1366px;
+  height: 800px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fl-title{
+  position: relative; left: 11px; bottom: 23px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.fl-slot{
+  width: 50%;
+  position: relative; left: 15px; top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px rgb(113, 137, 167) solid; height: 760px;
+
+}
+
+.fl-info{
+  width: 620px; 
+  height: 240px;
+  border-bottom: 1px #A8A8A8 dotted;
+  position: relative; bottom: 35px;
+}
+
+.fl-info-no-border{
+  width: 620px; 
+  height: 250px;
+  position: relative; bottom: 45px;
+}
+
+.fl-house{
+  position: relative;left: 11px; top: 18px;
+  width: 260px;
+}
+
+.fl-text{
+  position: relative; bottom: 120px; left: 280px;
+  line-height:3px
+}
+
+.fl-text b{
+  font-size: 20px;
+}
+
+.fl-text h3{
+  font-size: 15px; 
+  font-weight: normal;
+}
+
+.fl-text h4{
+  color: #C21717;
+}
+
+.fl-text h5{
+  position: relative; right: 270px; top: 40px;
+  line-height:21px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.fl-text  a{
+  color:#C21717;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.latest-listing{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ll-info{
+  position: relative; bottom: 7px;
+}
+
+.ll-title{
+  position: relative;  left: 35px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.ll-text{
+  position: relative; left: 35px;
+  width: 80%;
+  line-height: 3px
+  
+}
+
+.ll-text b{
+  font-size: 15px;
+}
+
+.ll-text h3{
+  font-size: 15px; 
+  font-weight: normal;
+  
+}
+
+.ll-text h4{
+  color: #C21717;
+}
+
+.ll-house{
+  position: relative; left: 35px;
+  width: 260px;
+}
+
+
+.main-menu{
+  width: 25%;
+}
+
+.mm-title{
+  position: relative; left: 25px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.home-menu{
+  height: 55%;
+  border-left:1px rgb(113, 137, 167) solid ; height: 395px ;
+}
+
+.home-menu p{
+  position: relative; left: 25px;
+  font-size: 15px;
+  padding: 6px;
+  border-bottom: 1px rgb(168, 168, 168) dotted;
+  width: 260px;
+  margin: 5px;
+}
+
+.home-menu i{
+  position: relative; bottom: 1px; right: 5px;
+  font-size: 10px;
+}
+
+.home-menu a{
+  text-decoration: none;
+  color: rgb(99, 124, 155);
+}
+
+.poll{
+  position: relative;
+  border-left: 1px solid rgb(113, 137, 167); height: 347px;
+}
+
+.poll-title{
+  position: relative; left: 35px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.poll p{
+  position: relative; left: 30px;
+}
+
+
+.radio{
+  margin: 6px;
+  position: relative; left: 20px;
+}
+
+
